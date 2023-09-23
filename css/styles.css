@@ -818,10 +818,17 @@ opacity: 1;
 
 .review-form-checkbox:focus + .review-form-checkbox-label > .review-form-own-checkbox {
     outline: 2px;
+}
 
+
+.review-form-checkbox:checked {
+    border: none;
+    background-color: var(--check);
+    fill: var(--light);
 }
 
 .checkbox-span {
+    display: inline-flex;
         justify-content: center;
         align-items: center;
         width: 16px;
