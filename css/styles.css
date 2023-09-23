@@ -721,7 +721,7 @@ opacity: 1;
 .review-form-filed-wrapper {
     width: 360px;
         height: 58px;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
         position: relative;
 }
 
@@ -737,6 +737,7 @@ opacity: 1;
 
 .input-div {
     position: relative;
+    margin-bottom: 16px;
 }
 
 .review-form-input {
