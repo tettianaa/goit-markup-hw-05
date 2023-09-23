@@ -5,6 +5,7 @@
     --white-icon: #FFF;
     --dark: #2E2F42;
     --check: #404bbf;
+    --light: #F4F4FD;
 }
 
 
@@ -720,7 +721,7 @@ opacity: 1;
 .review-form-filed-wrapper {
     width: 360px;
         height: 58px;
-        margin-bottom: 8px;
+        margin-bottom: 16px;
         position: relative;
 }
 
@@ -807,7 +808,7 @@ opacity: 1;
 .review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
     background-color: var(--check);
     border: none;
-    fill: #F4F4FD;
+    fill: var(--light);
 }
 
 .review-form-checkbox:focus + .review-form-checkbox-label > .review-form-own-checkbox {
