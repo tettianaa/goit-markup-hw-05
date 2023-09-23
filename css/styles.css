@@ -4,6 +4,7 @@
     --green-color: #31d0aa;
     --white-icon: #FFF;
     --dark: #2E2F42;
+    --check: #404bbf;
 }
 
 
@@ -803,13 +804,13 @@ opacity: 1;
             letter-spacing: 0.04em;
 }
 
-.review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox {
-    background-color: #404bbf;
+.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+    background-color: var(--check);
     border: none;
     fill: #F4F4FD;
 }
 
-.review-form-checkbox:focus+.review-form-checkbox-label>.review-form-own-checkbox {
+.review-form-checkbox:focus + .review-form-checkbox-label > .review-form-own-checkbox {
     outline: 2px;
 
 }
