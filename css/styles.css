@@ -824,7 +824,7 @@ background-color: var(--green-color, #31D0AA);
             letter-spacing: 0.04em;
 }
 
-.review-form-checkbox:checked + .review-form-checkbox-label > .review-form-own-checkbox {
+.review-form-checkbox:checked + .checkbox-label > .checkbox-span {
     background-color: var(--check);
     border: none;
     fill: var(--light);
